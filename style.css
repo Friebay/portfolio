@@ -35,15 +35,6 @@ body {
     min-height: 100vh;
 }
 
-@keyframes blink {
-    0%, 50% { opacity: 1; }
-    51%, 100% { opacity: 0; }
-}
-
-blink, .blinking-text {
-    animation: blink 1s infinite;
-}
-
 .sidebar {
     grid-area: sidebar;
     background: linear-gradient(180deg, #2c3e50 0%, #34495e 100%);
